@@ -38,7 +38,7 @@ Buildings
 Upgrades
   *drillinstructor
       name:Drill Instructor
-      desc:Trains recruits to be more effective.<//><b>Effect:</b><.>+1 Influence/recruit
+      desc:Trains recruits to be more effective. +10% recruit influence.
       cost:100 USD
-      passive:increase influence yield of recruit by 1
-      req:10 USD:earned
+      passive:multiply yield of recruit by 1.05
+      req:100 USD:earned
