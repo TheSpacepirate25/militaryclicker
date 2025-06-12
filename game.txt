@@ -27,4 +27,4 @@ Buildings
     name:Recruit
     desc:Basic soldiers doing grunt work.
     cost:20 money
-    on tick:give 1 influence
+    on tick:yield 1 influence
