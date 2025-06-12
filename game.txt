@@ -12,13 +12,13 @@ Buttons
 		name:Make a dollar
 		desc:Click this button to waste taxpayer dollars.
 		on click:anim icon wobble
-		on click:yield 1 money
+		on click:yield 1 USD
 
 Resources
   *influence
     name:Influence
     desc:An abstract unit of raw military power and influence.
-  *money
+  *USD
     name:Money
     desc:Sweet American dollar bills.
 
@@ -26,5 +26,19 @@ Buildings
   *recruit
     name:Recruit
     desc:Basic soldiers doing grunt work.
-    cost:20 money
+    cost:20 USD
     on tick:yield 1 influence
+
+  *sergeant
+    name:Sergeant
+    desc:Elite foot soldiers.
+    cost:100 USD
+    on tick:yield 3 influence
+
+Upgrades
+  *drillinstructor
+      name:Drill Instructor
+      desc:Trains recruits to be more effective.<//><b>Effect:</b><.>+1 Influence/recruit
+      cost:100 USD
+      passive:increase influence yield of recruit by 1
+      req:10 USD:earned
