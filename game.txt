@@ -1,4 +1,3 @@
-//hi mate
 Let's make a game!
   name:Military Clicker
 
@@ -16,7 +15,7 @@ Buttons
 		on click:yield 1 money
 
 Resources
-  *money
+  *influence
     name:Influence
     desc:An abstract unit of raw military power and influence.
   *money
