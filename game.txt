@@ -1,1 +1,31 @@
 //hi mate
+Let's make a game!
+  name:Military Clicker
+
+
+Settings
+	building cost increase:115%
+	building cost refund:50%
+	stylesheet:stuff/bigBlue.css
+
+Buttons
+	*moneybutton
+		name:Make a dollar
+		desc:Click this button to waste taxpayer dollars.
+		on click:anim icon wobble
+		on click:yield 1 money
+
+Resources
+  *money
+    name:Influence
+    desc:An abstract unit of raw military power and influence.
+  *money
+    name:Money
+    desc:Sweet American dollar bills.
+
+Buildings
+  *recruit
+    name:Recruit
+    desc:Basic soldiers doing grunt work.
+    cost:20 money
+    on tick:give 1 influence
